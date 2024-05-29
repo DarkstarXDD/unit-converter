@@ -25,9 +25,10 @@
         <button class="convert-button">Convert</button>
       </form>
 
-      <div class="sections flex-column">
+      <div class="sections flex-column" aria-live="assertive">
+        <h2 class="visually-hidden">Converted Values</h2>
         <section class="section flex-column">
-          <h2 class="section-heading">Length (Meter/Feet)</h2>
+          <h3 class="section-heading">Length (Meter/Feet)</h3>
           <p class="section-text">
             <span class="mobile m-meters-feet">0 meters = 0 feet</span>
             <span class="mobile m-feet-meters">0 feet = 0 meters</span>
@@ -38,7 +39,7 @@
         </section>
 
         <section class="section flex-column">
-          <h2 class="section-heading">Volume (Liters/Gallons)</h2>
+          <h3 class="section-heading">Volume (Liters/Gallons)</h3>
           <p class="section-text">
             <span class="mobile m-liters-gallons">0 liters = 0 gallons</span>
             <span class="mobile m-gallons-liters">0 gallons = 0 liters</span>
@@ -49,7 +50,7 @@
         </section>
 
         <section class="section flex-column">
-          <h2 class="section-heading">Mass (Kilograms/Pounds)</h2>
+          <h3 class="section-heading">Mass (Kilograms/Pounds)</h3>
           <p class="section-text">
             <span class="mobile m-kilos-pounds">0 kilos = 0 pounds</span>
             <span class="mobile m-pounds-kilos">0 pounds = 0 kilos</span>
